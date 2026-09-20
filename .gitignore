@@ -1,0 +1,45 @@
+# --- Secrets: NEVER publish ---
+.env
+*.env
+.env.local
+*.key
+secrets*
+
+# --- State & logs ---
+bot.log
+*.log
+position.json
+report.json
+.demo_start
+.demo_test
+_selfdelete.bat
+
+# --- Local test scripts ---
+test_*.py
+check_*.py
+create_chat_test.py
+invite_to_group.py
+setup_student_chat.py
+verify_trade.py
+find_cheap_pairs.py
+test_batch.py
+test_mexc_bulk.py
+test_vk_history.py
+test_longpoll_live.py
+test_autovolume.py
+check_liquidity.py
+check_state.py
+check_top.py
+
+# --- Builds & cache ---
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+*_install.zip
+CryptoBot_install.zip
+
+# --- Temp ---
+tmp/
+.tmp
